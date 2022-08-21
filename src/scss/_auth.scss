@@ -1,0 +1,46 @@
+$primaryColorAuth: #6d9ac4;
+$buttonColorAuth: #ee5784;
+
+.auth{
+background-color: white;
+min-height: 100vh;
+padding: 3.75rem 0rem;
+display: flex;
+justify-content: center;
+align-items: center;
+button{
+  background-color: $buttonColorAuth;
+  color: white;
+  border: 0.125rem solid white;
+  &:hover{
+    color: $buttonColorAuth !important;
+    border: 0.125rem solid $buttonColorAuth;
+  }
+  &:focus{
+    color: $buttonColorAuth !important;
+    border: 2px solid $buttonColorAuth;
+  }
+}
+.card{
+  border-radius: 0.625rem;
+  background: white;
+  box-shadow:  2px 2px 8px darkgray,
+}
+input{
+  box-shadow: none;
+  border: none;
+  outline: none;
+  border: 2px solid darkgray;
+  border-radius: none !important;
+  &:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    border: 2px solid darkgray;
+    border-radius: none !important;
+  }
+}
+p{
+  color: darkgray;
+}
+}

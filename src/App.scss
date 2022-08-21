@@ -1,0 +1,64 @@
+@import "./scss/bootstrap";
+@import "./scss/auth";
+@import "./scss/home";
+@import "./scss/libraries";
+@import "./scss/contact";
+
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.btn-1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+}
+
+.about-container{
+  min-height: calc(100vh - 8rem);
+}
+
+.card{
+  max-width: 600px;
+  margin: 0 auto;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
